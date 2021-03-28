@@ -5,6 +5,7 @@ mix.js('src/js/app.js', 'dist/js')
         require('postcss-import'),
         require('@tailwindcss/jit'),
         require('autoprefixer'),
+        // require('cssnano'),
     ]);
 
 if (mix.inProduction()) {
